@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<head>
+
+    <title>Seu nome</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+
+     <!-- LINK DE REFERÊNCIA AO BOOTSTRAP -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+   
+    <!--Defina a classe para NAVBAR-INVERSE MEUMENU -->
+    <nav       >
+        <!--Conteúdo que irá aparecer caso você abra o site no computador -->
+        <!--Defina a classe para NAVBAR-HEADER -->
+        <div>
+            <!--Defina a classe para NAVBAR-TOGGLE e o data-toggle para COLLAPSE e o data-target para MEUMENU -->
+            <button type="button"  >
+                <!--CRIE 3 SPANS DA CLASSE ICON-BAR -->
+          
+            </button>
+            <!--DEFINA A CLASSE PARA NAVBAR-BRAND E COLOQUE SEU NOME -->
+            <a href="#"> Seu nome </a>
+        </div>
+        <!--Conteúdo que irá aparecer caso você abra o site no celular -->
+        <!--defina a classe para COLLAPSE NAVBAR-COLLAPSE e o id para MEUMENU -->
+
+        <div   >
+            <!--defina a classe da ul para NAV NAVBAR-NAV-->
+            <ul >
+                <li class="link"><a href="#sobre">Sobre Mim</a></li>
+                <li class="link"><a href="#viagens">Viagens</a></li>
+                <li class="link"><a href="#filmes">Filmes</a></li>
+                <li class="link"><a href="#livros">Livros</a></li>
+                <li class="link"><a href="#jogos">Jogos</a></li>
+                <li class="link"><a href="#bots">Bots</a></li>
+                <li class="link"><a href="#contato">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+    <center>   
+        <div class="topo">
+        <h1> Seu Nome </h1>
+        </div> 
+        
+        <section> 
+            <!--Defina a fonte da imagem para o nome da sua foto e defina a largura para 30% e a classe para IMG-CIRCLE -->
+            <img src="boy.png"         >
+
+        </section>
+
+   
+
+    
+    <section id="jogos">
+        <h1>Jogos</h1>
+
+        <img src="https://i.gifer.com/3OX4.gif" width="15%" height="10%">
+        <br>
+
+        <div class="container">
+            <div class="carousel slide" id="myCarousel">
+                <div class="carousel-inner">             
+                <div class="item active">
+                    <img src="game1.png">
+                </div>
+               
+                <div class="item">
+                    <img src="game2.png">
+                </div>
+                    
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+
+            </div>
+        </div>
+        </div>
+    </section>
+
+    
+    <section id="bots">
+        <h1>Bots</h1>
+        <img src="https://uploads-ssl.webflow.com/5c99a2b7f7d06d83b8d7d285/5cab03cdd636b72c9e612e31_Ava%20Wave%20wink%20Animation%20with%20shadow.gif" width="15%" height="10%">
+        <br>
+
+  
+<iframe
+allow="microphone;"
+width="25%" height="400px"
+src="https://console.dialogflow.com/api-client/demo/embedded/32bec21a-3c97-4a6b-9417-0e9585511ce2">
+</iframe>
+  
+        
+    </section>
+  </center>
+</body>
+
+</html>
